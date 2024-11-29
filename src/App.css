@@ -1,0 +1,92 @@
+.app {
+  min-height: 200vh;
+  /* background-color: #09a2e8; */
+  background: url("https://img.freepik.com/free-psd/business-sales-blank-banner-background_23-2151485297.jpg");
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 100px;
+  color: #333;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Cards */
+.card {
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.placeholder {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #100a85;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #3b82f6;
+}
+
+.list {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 5px;
+  color: #444;
+}
+
